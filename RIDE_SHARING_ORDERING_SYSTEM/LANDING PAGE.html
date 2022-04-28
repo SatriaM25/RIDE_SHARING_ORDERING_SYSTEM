@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Ride Sharing App</title>
+    <style>
+        *:focus {
+            outline: none;
+        }
+        
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #DDD;
+            font-size: 16px;
+            color: #222;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+        }
+        .container{
+            position: relative;
+            margin: 5% auto;
+            width: 600px;
+            height: 500px;
+            background: #FFF;
+            border-radius: 2px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+            border-radius: 10%;
+        }
+        .duarow1{
+            position: absolute;
+            top: 0;
+            left: 0;
+            box-sizing: border-box;
+            padding: 40px;
+            width: 300px;
+            height: 600px;
+            
+        }
+        .duarow2{
+            position: absolute;
+            top: 0;
+            right: 0;
+            box-sizing: border-box;
+            padding: 40px;
+            width: 300px;
+            height: 100%;
+            background: url('img/bgrs.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 0 2px 2px 0;
+        }
+        h1{
+            margin: 0 0 20px 0;
+            font-weight: bold;
+            font-size: 26px;
+        }
+        img{
+            padding-top: 10px;;
+            display:block;
+            width:80px;
+            height:80px;
+            text-align: center;
+            margin: 5vh auto;
+        }
+        p{
+            text-align:center
+        }
+        input[type="submit"] {
+        
+        width: 140px;
+        height: 32px;
+        background: #16a085;
+        border: none;
+        border-radius: 2px;
+        color: #FFF;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        transition: 0.1s ease;
+        cursor: pointer;
+        margin-left: 3vw;
+        border-radius: 20%;
+        }
+
+        input[type="submit"]:hover,
+        input[type="submit"]:focus {
+        opacity: 0.8;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+        transition: 0.1s ease;
+        }
+
+        input[type="submit"]:active {
+        opacity: 1;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+        transition: 0.1s ease;
+        }
+
+        .duarow2{
+            border-radius: 6%;
+        }
+        h5{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class = "container">
+        <div class="duarow1">
+            <h1>Ride Sharing App</h1>
+            <a href="CUSTOMER/customer-login.html"><img src="img/user.png" alt=""></a>
+            <p>User</p>
+            <a href="DRIVER/driver-login.html"><img src="img/driver.png" alt=""></a>
+            <p>Driver</p>
+        </div>
+
+        <div class="duarow2">
+        </div>
+
+    </div>
+</body>
+</html>
