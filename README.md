@@ -6,10 +6,6 @@ Description : This Web-Application imitates the ordering system in application s
 - User : Creates an account -> Login -> Pick pickup location, destination and price -> Waiting for driver to accept the order -> Transaction is recorded and put into transaction history
 - Driver : Creates an account -> Login -> Accept/Reject customer order -> Transaction recorded and put into transaction history
 
-> ORDERING SIMULATION :
-
-https://user-images.githubusercontent.com/77273824/165733283-cb5b708c-750e-4ab6-b01e-a5b06cc6def9.mp4
-
 > HOW TO RUN THE PROJECT IN YOUR WEB HOSTING :
 1. Download all the files in zip form from our github page
 2. Extract the zip file in your web hosting
@@ -65,3 +61,7 @@ https://user-images.githubusercontent.com/77273824/165733283-cb5b708c-750e-4ab6-
 8. TRANSACTION HISTORY
 
 <img src="https://user-images.githubusercontent.com/77273824/165700663-c10c5327-45c8-4757-81bf-a6c0265bd06b.png" width = "500"/>
+
+> ORDERING SIMULATION :
+
+https://user-images.githubusercontent.com/77273824/165733283-cb5b708c-750e-4ab6-b01e-a5b06cc6def9.mp4
