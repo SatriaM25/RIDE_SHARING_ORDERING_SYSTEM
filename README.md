@@ -8,6 +8,8 @@ Description : This Web-Application imitates the ordering system in application s
 
 > ORDERING SIMULATION :
 
+https://user-images.githubusercontent.com/77273824/165733283-cb5b708c-750e-4ab6-b01e-a5b06cc6def9.mp4
+
 > HOW TO RUN THE PROJECT IN YOUR WEB HOSTING :
 1. Download all the files in zip form from our github page
 2. Extract the zip file in your web hosting
